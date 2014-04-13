@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=listener
+comment0.target=void\ addChangeListener(java.beans.PropertyChangeListener)
+comment0.text=\r\n\ Adds\ a\ ChangeListener\ to\ the\ list\ of\ listeners\ that\ will\ be\ notified\ if\ the\ implementing\ class's\ state\ changes.\r\n\ \r\n\ @param\ listener\ The\ ChangeListener\ that\ needs\ to\ receive\ state\ change\ notifications.\r\n
+comment1.params=listener
+comment1.target=void\ removeChangeListener(java.beans.PropertyChangeListener)
+comment1.text=\r\n\ Removes\ a\ ChangeListener\ from\ the\ list\ of\ listeners\ that\ will\ be\ notified\ if\ the\ implementing\ class's\ state\ changes.\r\n\ \r\n\ @param\ listener\ The\ ChangeListener\ that\ should\ no\ longer\ receive\ state\ change\ notifications.\r\n
+comment2.params=stateChange
+comment2.target=void\ notifyListeners(java.beans.PropertyChangeEvent)
+comment2.text=\r\n\ Calls\ the\ StateChanged()\ method\ on\ each\ attached\ ChangeListener,\ with\ the\ provided\ ChangeEvent\ message.\r\n\ \r\n\ @param\ stateChange\ A\ ChangeEvent\ message\ containing\ information\ on\ what\ state\ has\ changed.\r\n\ Any\ attached\ ChangeListeners\ should\ then\ decide\ if\ they\ need\ to\ react\ in\ some\ manner,\ based\ on\ the\ given\ message.\r\n
+numComments=3

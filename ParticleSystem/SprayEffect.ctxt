@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=direction\ arcWidth\ forceMultiplier\ gravity\ screen
+comment0.target=SprayEffect(double,\ double,\ double,\ double,\ ViewScreen)
+comment1.params=particleSprite\ location\ numberOfParticles
+comment1.target=Particle[]\ spawnParticles(java.awt.image.BufferedImage,\ java.awt.geom.Point2D.Double,\ int)
+numComments=2

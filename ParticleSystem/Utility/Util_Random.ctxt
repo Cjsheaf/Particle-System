@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=radius\ origin\ theta\ offset
+comment0.target=java.awt.geom.Point2D.Double\ randomPointInCircle(double,\ java.awt.geom.Point2D.Double,\ double,\ double)
+comment0.text=\r\n\ Generates\ a\ point\ randomly\ within\ a\ circle\ of\ the\ given\ radius\ and\ constraints.\ With\ the\ appropriate\ constraints,\ will\ generate\ points\ only\ within\ a\ slice\ of\ the\ circle.\r\n\ \r\n\ @param\ theta\ How\ wide\ the\ arc\ is\ (in\ radians).\ The\ point\ will\ be\ forced\ to\ be\ generated\ somewhere\ in\ the\ arc,\ relative\ to\ the\ origin.\r\n\ <p>For\ example,\ 2*PI\ means\ the\ point\ can\ be\ generated\ anywhere\ in\ the\ circle\ and\ 0.5*PI\ means\ it\ can\ be\ generated\ in\ a\ quarter-circle.</p>\r\n\ @param\ offset\ The\ angle\ (in\ radians)\ added\ to\ the\ arc\ calculated\ by\ using\ the\ theta.\r\n\ <p>For\ example,\ a\ theta\ of\ 0.1*PI\ will\ give\ an\ arcwidth\ of\ a\ 20th\ of\ a\ circle(a\ tenth\ of\ half\ a\ circle),\ initially\ directed\ from\ the\ standard\ position\ if\ no\ offset\ is\ given.\r\n\ Using\ an\ offset\ of\ PI\ (half\ a\ circle)\ will\ direct\ it\ in\ exactly\ the\ opposite\ direction\ from\ the\ standard\ position\ (adds\ the\ equivalent\ of\ 180\ degrees).</p>\r\n
+comment1.params=
+comment1.target=int\ getRandomSign()
+comment1.text=\r\n\ Returns\ either\ 1\ or\ -1,\ with\ equal\ probability.\r\n
+numComments=2

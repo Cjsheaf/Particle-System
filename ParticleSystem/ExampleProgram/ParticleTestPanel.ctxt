@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=settings
+comment0.target=ParticleTestPanel(ProgramSettings)
+comment1.params=event
+comment1.target=void\ propertyChange(java.beans.PropertyChangeEvent)
+comment2.params=
+comment2.target=void\ initialize()
+comment2.text=\r\n\ A\ method\ to\ initialize\ the\ graphics\ and\ input-related\ properties\ of\ this\ Panel.\r\n\ Must\ be\ called\ AFTER\ the\ Panel\ has\ been\ added\ to\ and\ displayed\ as\ part\ of\ the\ UI.\r\n
+comment3.params=
+comment3.target=void\ addMouseListener()
+comment4.params=event
+comment4.target=void\ mousePressed(java.awt.event.MouseEvent)
+comment5.params=manager
+comment5.target=void\ loadParticleEffects(ParticleSystem.ParticleManager)
+comment6.params=frontBuffer
+comment6.target=void\ paintComponent(java.awt.Graphics)
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=8

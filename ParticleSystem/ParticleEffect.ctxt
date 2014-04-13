@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=particleSprite\ location\ numberOfParticles
+comment0.target=Particle[]\ spawnParticles(java.awt.image.BufferedImage,\ java.awt.geom.Point2D.Double,\ int)
+numComments=1

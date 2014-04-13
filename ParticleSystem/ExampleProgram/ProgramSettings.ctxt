@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ProgramSettings()
+comment1.params=graphicalDetailLevel
+comment1.target=ProgramSettings(int)
+comment2.params=
+comment2.target=int\ getGraphicalDetailLevel()
+comment3.params=detailLevel
+comment3.target=void\ setGraphicalDetailLevel(int)
+comment4.params=
+comment4.target=int\ getParticleEvent()
+comment5.params=newEvent
+comment5.target=void\ setParticleEvent(int)
+comment6.params=listener
+comment6.target=void\ addChangeListener(java.beans.PropertyChangeListener)
+comment7.params=listener
+comment7.target=void\ removeChangeListener(java.beans.PropertyChangeListener)
+comment8.params=stateChange
+comment8.target=void\ notifyListeners(java.beans.PropertyChangeEvent)
+numComments=9

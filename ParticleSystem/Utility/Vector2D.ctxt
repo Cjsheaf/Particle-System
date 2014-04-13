@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Vector2D()
+comment1.params=xCoord\ yCoord
+comment1.target=Vector2D(double,\ double)
+comment2.params=coords
+comment2.target=Vector2D(java.awt.geom.Point2D.Double)
+comment3.params=canvas\ xCoord\ yCoord
+comment3.target=void\ draw(java.awt.Graphics,\ int,\ int)
+comment3.text=\r\n\ Given\ an\ origin\ and\ Graphics\ surface\ to\ draw\ on,\ draws\ this\ vector\ as\ a\ line\ relative\ to\ the\ origin.\r\n\ \r\n\ @param\ canvas\ The\ surface\ that\ this\ vector\ will\ be\ drawn\ on.\r\n\ @param\ xCoord\ The\ x-coordinate\ of\ the\ origin\ to\ which\ this\ vector\ will\ be\ drawn\ relative\ to.\r\n\ @param\ yCoord\ The\ y-coordinate\ of\ the\ origin\ to\ which\ this\ vector\ will\ be\ drawn\ relative\ to.\r\n
+comment4.params=canvas\ origin
+comment4.target=void\ draw(java.awt.Graphics,\ java.awt.geom.Point2D.Double)
+comment4.text=\r\n\ Given\ an\ origin\ and\ Graphics\ surface\ to\ draw\ on,\ draws\ this\ vector\ as\ a\ line\ relative\ to\ the\ origin.\r\n\ \r\n\ @param\ canvas\ The\ surface\ that\ this\ vector\ will\ be\ drawn\ on.\r\n\ @param\ origin\ The\ origin\ coordinate\ pair\ to\ which\ this\ vector\ will\ be\ drawn\ relative\ to.\r\n
+comment5.params=otherVector
+comment5.target=void\ add(Vector2D)
+comment5.text=\r\n\ Adds\ a\ second\ vector\ to\ this\ vector,\ mutably.\r\n\ \r\n\ @param\ otherVector\ The\ second\ vector\ whose\ value\ will\ be\ added\ to\ this\ vector's.\r\n
+comment6.params=otherVector
+comment6.target=void\ subtract(Vector2D)
+comment6.text=\r\n\ Subtracts\ a\ second\ vector\ to\ this\ vector,\ mutably.\r\n\ \r\n\ @param\ otherVector\ The\ second\ vector\ whose\ value\ will\ be\ subtracted\ from\ this\ vector's.\r\n
+comment7.params=vector
+comment7.target=Vector2D\ normalize(Vector2D)
+comment7.text=\r\n\ Given\ a\ vector,\ creates\ from\ it\ a\ new\ unit\ vector,\ (where\ the\ magnitude\ is\ exactly\ 1)\ but\ whose\ direction\ remains\ unchanged.\r\n\ \r\n\ @param\ vector\ The\ vector\ from\ which\ the\ new\ unit\ vector\ will\ be\ modelled.\r\n
+comment8.params=vectorA\ vectorB
+comment8.target=double\ dotProduct(Vector2D,\ Vector2D)
+comment8.text=\r\n\ Returns\ the\ <a\ href\="http\://en.wikipedia.org/wiki/Dot_product">dot\ product</a>\ of\ a\ pair\ of\ vectors.\r\n
+comment9.params=vectorA\ vectorB
+comment9.target=Vector2D\ projectAOntoB(Vector2D,\ Vector2D)
+comment9.text=\r\n\ Returns\ a\ new\ vector\ that\ is\ the\ length\ of\ vectorA,\ in\ vectorB's\ direction.\ Can\ be\ thought\ of\ as\ the\ "shadow"\ vectorA\ casts\ on\ vectorB\ with\ a\ light\ source\ perpendicular\ to\ vectorB.\r\n\ \r\n\ @param\ vectorA\ The\ vector\ being\ projected.\r\n\ @param\ vectorB\ The\ vector\ being\ projected\ upon.\r\n
+numComments=10

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=forceMultiplier\ gravity\ friction\ minimumAge\ screen
+comment0.target=ExplosionEffect(double,\ double,\ double,\ int,\ ViewScreen)
+comment1.params=particleSprite\ location\ numberOfParticles
+comment1.target=Particle[]\ spawnParticles(java.awt.image.BufferedImage,\ java.awt.geom.Point2D.Double,\ int)
+numComments=2

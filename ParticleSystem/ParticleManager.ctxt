@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=screen\ maxParticleNumber
+comment0.target=ParticleManager(ViewScreen,\ int)
+comment1.params=
+comment1.target=void\ update()
+comment10.params=
+comment10.target=void\ removeDeadParticles()
+comment2.params=graphics
+comment2.target=void\ drawParticles(java.awt.Graphics)
+comment3.params=spriteName\ spriteImage
+comment3.target=void\ addParticleSprite(java.lang.String,\ java.awt.image.BufferedImage)
+comment4.params=spriteName
+comment4.target=void\ removeParticleSprite(java.lang.String)
+comment5.params=effectName\ effect
+comment5.target=void\ addParticleEffect(java.lang.String,\ ParticleEffect)
+comment6.params=effectName
+comment6.target=void\ removeParticleEffect(java.lang.String)
+comment7.params=effectName\ spriteName\ location\ numberOfParticles
+comment7.target=void\ triggerParticleEffect(java.lang.String,\ java.lang.String,\ java.awt.geom.Point2D.Double,\ int)
+comment8.params=maxParticles
+comment8.target=void\ setMaxParticleNumber(int)
+comment9.params=
+comment9.target=int\ getIndexToWrite()
+comment9.text=HELPER\ METHODS**********************
+numComments=11
